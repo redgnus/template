@@ -1,0 +1,34 @@
+# SPDX-FileCopyrightText: 2022 Pablo Hörtner
+# SPDX-License-Identifier: AGPL-3.0-or-later
+#
+# Copyright © 2022 by Pablo Hörtner <redtux@pm.me>. All rights reserved.
+# You can find the AGPL v3.0 here: https://www.gnu.org/licenses/agpl-3.0
+#
+# GitHub CI Dependency Management · redgnus
+# @see https://docs.github.com/en/code-security/supply-chain-security
+version: 2
+updates:
+
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+
+  # Maintain dependencies for docker
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "daily"
+
+  # Maintain dependencies for npm
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+
+  # Maintain dependencies for pip
+  - package-ecosystem: "pip"
+    directory: "/docs"
+    schedule:
+      interval: "daily"
