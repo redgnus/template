@@ -11,8 +11,8 @@ permalink: /
 
 ![logo](https://raw.githubusercontent.com/redgnus/logo/main/logo.svg)
 
-[![license](https://img.shields.io/github/license/redgnus/templates?color=blue)](https://github.com/redgnus/templates/blob/main/docs/LICENSE)
-![issues](https://img.shields.io/github/issues-raw/redgnus/templates?color=blue)
+[![license](https://img.shields.io/github/license/redgnus/template?color=blue)](https://raw.githubusercontent.com/redgnus/template/main/LICENSE)
+![issues](https://img.shields.io/github/issues-raw/redgnus/template?color=blue)
 
 1. [About](#about)
 2. [Templates](#templates)
