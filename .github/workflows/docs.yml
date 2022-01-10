@@ -1,0 +1,54 @@
+# SPDX-FileCopyrightText: 2022 Pablo Hörtner
+# SPDX-License-Identifier: AGPL-3.0-or-later
+#
+# Copyright © 2022 by Pablo Hörtner <redtux@pm.me>. All rights reserved.
+# You can find the AGPL v3.0 here: https://www.gnu.org/licenses/agpl-3.0
+#
+# Static Site Generators with Python · redgnus
+# https://github.com/marketplace/actions/github-pages-action#%EF%B8%8F-static-site-generators-with-python
+name: Publish redgnus docs
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - name: Checkout repository and submodules
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+
+      - name: Upgrade pip
+        run: |
+          # install pip=>20.1 to use "pip cache dir"
+          python3 -m pip install --upgrade pip
+
+      - name: Get pip cache dir
+        id: pip-cache
+        run: echo "::set-output name=dir::$(pip cache dir)"
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ${{ steps.pip-cache.outputs.dir }}
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: python3 -m pip install -r ./requirements.txt
+
+      - name: Deploy GitHub Pages
+        run: mkdocs gh-deploy --force
