@@ -1,0 +1,51 @@
+# SPDX-FileCopyrightText: 2022 Pablo Hörtner
+# SPDX-License-Identifier: AGPL-3.0-or-later
+#
+# Copyright © 2022 by Pablo Hörtner <redtux@pm.me>. All rights reserved.
+# You can find the AGPL v3.0 here: https://www.gnu.org/licenses/agpl-3.0
+# Attribution required if you use this EditorConfig file in your project.
+#
+# EditorConfig Style Guidelines
+# @see https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Our default configuration:
+# Unix-style newlines with a
+# newline ending every file.
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+max_line_length = 80
+trim_trailing_whitespace = true
+
+[Dockerfile]
+indent_size = 2
+
+# Makefiles and Make Templates
+[{Makefile,GNUMakefile,*.mk}]
+indent_style = tab
+indent_size = 4
+
+# Markdown
+[*.md]
+trim_trailing_whitespace = false
+
+# Python
+[*.py]
+indent_size = 4
+indent_style = space
+
+# Go
+# https://golang.org/cmd/gofmt/
+[{go.mod,go.sum,*.go}]
+indent_style = tab
+indent_size = 4
+
+# YAML
+[{*.yml,*.yaml}]
+indent_size = 2
