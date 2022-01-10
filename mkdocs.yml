@@ -1,0 +1,69 @@
+# SPDX-FileCopyrightText: 2022 Pablo Hörtner
+# SPDX-License-Identifier:  CC-BY-SA-4.0
+# https://spdx.org/licenses/CC-BY-SA-4.0
+#
+# MkDocs Settings · redgnus
+#
+# To run MkDocs web service for this project:
+# pip install mkdocs-material && mkdocs serve
+
+# Website Author
+site_author: Pablo Hörtner and Contributors
+
+# Website Copyright
+copyright: © 2022 Pablo Hörtner (CC BY-SA 4.0)
+
+# Website Title
+site_name: docs
+
+# Website Description
+site_description: >-
+  IT Infra Project Documentation, Powered by MkDocs
+  Created & Run By Pablo Hörtner & Friends, Austria
+  Mail: <vwb4yxi6w@mozmail.com>
+  Web: <https://redgnus.github.io/redgnus>
+
+# Web Design
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: blue
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - tabs
+    - instant
+  #icon:
+  #  logo: https://raw.githubusercontent.com/redgnus/logo/main/avatar.svg
+
+# Navigation Bar & Hamburger Menu
+nav:
+  - 🏛️ Home: README.md
+  - 👀 Contributing guidelines: CONTRIBUTING.md
+  - 👥 Community guidelines: CODE_OF_CONDUCT.md
+  - 📝 Todo list: TODO.md
+
+# Enabled plugins
+plugins:
+  - search:
+      lang: en
+  - with-pdf:
+      #cover_logo: https://raw.githubusercontent.com/redgnus/logo/main/logo.svg
+      cover_subtitle: project documentation for redgnus
+      enabled_if_env: ENABLE_PDF_EXPORT
+      output_path: pdfs/document.pdf
+
+# Enabled extensions
+# https://python-markdown.github.io/extensions/
+# https://facelessuser.github.io/pymdown-extensions/
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.def_list
+  - pymdownx.mark
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
