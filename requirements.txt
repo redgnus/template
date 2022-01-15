@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2022 Pablo Hörtner <redtux@pm.me>
+# SPDX-License-Identifier: AGPL-3.0-or-later
+#
+# Python dependencies · required for redgnus
+# Usage:  `pip3 install -r requirements.txt`
+
 attrs==21.4.0
 click==8.0.3
 click-default-group==1.2.2
