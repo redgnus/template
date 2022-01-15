@@ -1,0 +1,20 @@
+// SPDX-FileCopyrightText: 2022 Pablo Hörtner <redtux@pm.me>
+// SPDX-License-Identifier: AGPL-3.0-or-later
+//
+// Visual Studio Code IDE · Get your FLOSS copy at https://vscodium.com/ ;)
+// Recommended extensions · redgnus
+{
+  "recommendations": [
+    "davidanson.vscode-markdownlint",
+    "donjayamanne.git-extension-pack",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "exiasr.hadolint",
+    "mikestead.dotenv",
+    "redhat.vscode-yaml",
+    "timonwong.shellcheck",
+    "vivaxy.vscode-conventional-commits"
+  ]
+}
