@@ -1,0 +1,49 @@
+// SPDX-FileCopyrightText: 2022 Pablo Hörtner <redtux@pm.me>
+// SPDX-License-Identifier: AGPL-3.0-or-later
+//
+// Visual Studio Code IDE · Get your FLOSS copy at https://vscodium.com/ ;)
+// Default VS Code Config · redgnus
+// Place your settings in this file to overwrite default and user settings.
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.quickSuggestionsDelay": 10,
+  "editor.rulers": [80],
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "target/**": true,
+    "vendor/**": true,
+    "venv/**": true
+  },
+  "editor.tabSize": 2,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 100,
+  "files.associations": {
+    "Dockerfile.*": "dockerfile",
+    ".releaserc": "json",
+    ".yamllint": "yaml"
+  },
+  "gitlens.advanced.telemetry.enabled": false,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#282F30",
+    "titleBar.activeBackground": "#374243",
+    "titleBar.activeForeground": "#FBFBFB"
+  }
+}
