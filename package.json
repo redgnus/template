@@ -1,0 +1,34 @@
+{
+  "name": "redgnus",
+  "version": "0.1.0",
+  "description": "✨Free Software✨ for a ✨Free Society✨",
+  "repository": "redgnus/template",
+  "homepage": "https://redgnus.github.io/",
+  "bugs": {
+    "url": "https://github.com/redgnus/template/issues"
+  },
+  "private": true,
+  "author": {
+    "name": "Pablo Hörtner",
+    "email": "redtux@pm.me",
+    "url": "(https://redtux.github.io)"
+  },
+  "license": "AGPL-3.0-or-later",
+  "files": [
+    "LICENSE"
+  ],
+  "keywords": [
+    "template"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "devDependencies": {
+    "cspell": "5.15.2",
+    "dotenv": "12.0.3",
+    "eslint": "8.6.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "prettier": "2.5.1"
+  }
+}
