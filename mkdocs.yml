@@ -23,6 +23,9 @@ site_description: >-
   Mail: <vwb4yxi6w@mozmail.com>
   Web: <https://redgnus.github.io/redgnus>
 
+# Website Root Directory
+site_dir: _site
+
 # Web Design
 theme:
   name: material
