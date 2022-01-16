@@ -11,6 +11,7 @@ permalink: /
 
 ![logo](https://raw.githubusercontent.com/redgnus/logo/main/logo.svg)
 
+[![REUSE Compliance](https://img.shields.io/reuse/compliance/github.com/redgnus/template?color=blue&label=REUSE)](https://api.reuse.software/info/github.com/redgnus/template)
 [![license](https://img.shields.io/github/license/redgnus/template?color=blue)](https://raw.githubusercontent.com/redgnus/template/main/LICENSE)
 ![issues](https://img.shields.io/github/issues-raw/redgnus/template?color=blue)
 
