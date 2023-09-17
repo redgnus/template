@@ -1,0 +1,35 @@
+# SPDX-FileCopyrightText: 2023 Pablo Hörtner
+# SPDX-License-Identifier: AGPL-3.0-or-later
+#
+# Copyright © 2023 by Pablo Hörtner <redtux@pm.me>. All rights reserved.
+# You can find the AGPL v3.0 here: https://www.gnu.org/licenses/agpl-3.0
+# Attribution required if you use this EditorConfig file in your project.
+#
+# This workflow executes several linters on changed files based on languages
+# used in our code base – whenever we "git push" code or open a pull request.
+#
+# Super-Linter GitHub Action
+# @see https://github.com/github/super-linter
+name: Lint Code Base
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+jobs:
+  run-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          # Full git history is needed to get a proper list of changed files within `super-linter`
+          fetch-depth: 0
+
+      - name: Lint Code Base
+        uses: github/super-linter@v4
+        env:
+          VALIDATE_ALL_CODEBASE: false
+          DEFAULT_BRANCH: "main"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
