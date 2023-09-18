@@ -49,3 +49,10 @@ indent_size = 4
 # YAML
 [{*.yml,*.yaml}]
 indent_size = 2
+
+# Shell scripts
+[*.sh]
+max_line_length = 80
+keep_padding = true             # shfmt: -kp
+space_redirects = true          # shfmt: -sr
+switch_case_indent = true       # shfmt: -ci
