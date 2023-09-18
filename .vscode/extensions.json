@@ -1,9 +1,13 @@
-// SPDX-FileCopyrightText: 2022 Pablo Hörtner <redtux@pm.me>
-// SPDX-License-Identifier: AGPL-3.0-or-later
-//
-// Visual Studio Code IDE · Get your FLOSS copy at https://vscodium.com/ ;)
-// Recommended extensions · redgnus
 {
+  // vim: set ai expandtab sw=2 ts=2 sts=2 re=2 ft=json:
+  // code: language=json
+  //
+  // SPDX-FileCopyrightText: 2023 Pablo Hörtner <redtux@pm.me>
+  // SPDX-License-Identifier: AGPL-3.0-or-later
+  //
+  // Visual Studio Code IDE · Get your FLOSS copy at https://vscodium.com/ ;)
+  // Recommended extensions · redgnus
+
   "recommendations": [
     "davidanson.vscode-markdownlint",
     "donjayamanne.git-extension-pack",
