@@ -1,0 +1,30 @@
+---
+# vim: set ai expandtab sw=2 ts=2 sts=2 re=2 ft=yaml:
+# code: language=yaml
+#
+# SPDX-FileCopyrightText: 2023 Pablo Hörtner <redtux@pm.me>
+# SPDX-License-Identifier: AGPL-3.0-or-later
+#
+# Copyright © 2023 by Pablo Hörtner <redtux@pm.me>. All rights reserved.
+# You can find the AGPL v3.0 here: https://www.gnu.org/licenses/agpl-3.0
+# Attribution required if you use this EditorConfig file in your project.
+#
+# This workflow executes several linters on changed files based on languages
+# used in our code base – whenever we "git push" code or open a pull request.
+#
+# MegaLinter configuration file
+# @see https://megalinter.io/configuration/
+
+APPLY_FIXES: all
+FILTER_REGEX_EXCLUDE: '(\.github/workflows|\.venv|_site)'
+PRINT_ALL_FILES: false
+REPOSITORY_TRIVY_ARGUMENTS:
+  - "--skip-dirs"
+  - ".venv"
+SHOW_ELAPSED_TIME: true
+SPELL_FILTER_REGEX_EXCLUDE: (\.github|_site|LICENSE|LICENSES)
+SPELL_VALE_FILE_EXTENSIONS:
+  - .markdown
+  - .md
+  - .text
+  - .txt
