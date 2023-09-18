@@ -26,7 +26,7 @@ libsass==0.22.0
 Markdown==3.3.6
 MarkupSafe==2.0.1
 mergedeep==1.3.4
-mkdocs==1.2.3
+mkdocs==1.5.3
 mkdocs-material==8.1.4
 mkdocs-material-extensions==1.0.3
 mkdocs-with-pdf==0.9.3
