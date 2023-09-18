@@ -1,0 +1,57 @@
+{
+  // vim: set ai expandtab sw=2 ts=2 sts=2 re=2:
+  //
+  // SPDX-FileCopyrightText: 2022 Pablo Hörtner <redtux@pm.me>
+  // SPDX-License-Identifier: AGPL-3.0-or-later
+  //
+  // Visual Studio Code IDE · Get your FLOSS copy at https://vscodium.com/ ;)
+  // VS Code Tasks or Tests · redgnus
+  //
+  // See https://github.com/microsoft/vscode-docs/blob/main/docs/editor/tasks.md
+  // for the documentation about the tasks.json format, and task auto-detection.
+
+  "version": "2.0.0",
+  "options": {
+    "env": {
+      "ansible_cmd": "ansible-playbook -i 127.0.0.1 ./playbooks/default.yam"
+    }
+  },
+  "tasks": [
+    {
+      "label": "Run default playbook locally",
+      "type": "shell",
+      "command": "$env:ansible_cmd -b -K",
+      "group": "build"
+    },
+    {
+      "label": "Run playbook syntax check",
+      "type": "shell",
+      "command": "$env:ansible_cmd --syntax-check",
+      "group": "test"
+    },
+    {
+      "label": "Run ansible lint",
+      "type": "shell",
+      "command": "ansible-lint ./playbooks/default.yaml",
+      "group": "test"
+    },
+    {
+      "label": "Serve docs locally",
+      "type": "shell",
+      "command": "mkdocs serve",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Deploy docs to GitHub",
+      "type": "shell",
+      "command": "mkdocs gh-deploy",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
