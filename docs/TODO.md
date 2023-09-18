@@ -26,6 +26,10 @@ in every project hosted by redgnus & related organisations like pandainfo.
 - [x] docs: add contributing guidelines
 - [x] docs: add todo list
 - [ ] docs: add changelog file
+- [ ] build: add ansible playbook
+- [ ] build: add ansible scripts
+- [ ] build: add mkdocs scripts
+- [ ] build: add setup script
 
 ## License files
 
@@ -50,6 +54,7 @@ they are essential configuration files for important tools of the project.
 
 - [x] chore: set recommended extensions for vscode and codium
 - [x] chore: set workspace settings for vscode and codium
+- [ ] chore: integrate task scripts to vscode and codium
 - [ ] chore: specify ansible linter rules to be excluded
 - [ ] chore: specify cspell
 - [ ] chore: specify dockerignore exclude patterns
@@ -64,12 +69,13 @@ they are essential configuration files for important tools of the project.
 
 Think of these files as GNU Makefiles or build recipes for this project.
 
+- [ ] build: add ansible configuration
 - [ ] build: add docker compose configuration
 - [ ] build: add docker image configuration
 - [x] build: add mkdocs configuration
 - [x] build: add npm configuration
 - [x] build: add pip requirements file
-- [x] build: set website root directory to _site
+- [x] build: set website root directory to `_site`
 
 ## Continuous integration
 
@@ -88,6 +94,9 @@ This might be replaced by [GitLab CI] or [Drone CI] ([Woodpecker]) soon.
 
 ## Project documentation
 
+- [ ] docs: improve compliance with the standard-readme specification
+- [ ] docs: add project logo
+- [ ] docs: add project banner
 - [ ] docs: add about page
 - [ ] docs: add getting started page
 - [ ] docs: add landing page
