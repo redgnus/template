@@ -134,6 +134,7 @@ git push
 - [Renovate Dependency Management Docs](https://docs.renovatebot.com/)
 - [Semantic Versioning Specification](https://semver.org/spec/v2.0.0.html)
 
+<!-- editorconfig-checker-disable -->
 <!-- References -->
 [Community Guidelines]: CODE_OF_CONDUCT.md "Contributor Code of Conduct"
 [Enforcement]: CODE_OF_CONDUCT.md#enforcement "CoC · Policy Violations"
