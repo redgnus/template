@@ -11,4 +11,4 @@
 
 
 
-      Copyright © 2023 by Pablo Hörtner <redtux@pm.me> (CC BY-SA).
+      Copyright © 2023 Pablo Hörtner <redtux@pm.me> (CC BY-SA 4.0)

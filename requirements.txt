@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2022 Pablo Hörtner <redtux@pm.me>
+# SPDX-FileCopyrightText: 2023 Pablo Hörtner <redtux@pm.me>
 # SPDX-License-Identifier: AGPL-3.0-or-later
 #
 # Python dependencies · required for redgnus
