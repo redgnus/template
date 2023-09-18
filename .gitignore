@@ -4,7 +4,6 @@
 # editorconfig-checker-disable
 # Created by https://www.toptal.com/developers/gitignore/api/vim,venv,node,dotenv,jekyll
 # Edit at https://www.toptal.com/developers/gitignore?templates=vim,venv,node,dotenv,jekyll
-# editorconfig-checker-enable
 
 ### dotenv ###
 .env
