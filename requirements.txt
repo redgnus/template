@@ -36,8 +36,8 @@ Pillow==10.0.1
 ply==3.11
 pycparser==2.21
 pydyf==0.7.0
-Pygments==2.11.2
-pymdown-extensions==9.1
+Pygments==2.15.0
+pymdown-extensions==10.0
 pyparsing==3.1.1
 pyphen==0.14.0
 python-dateutil==2.8.2
@@ -54,3 +54,4 @@ webencodings==0.5.1
 yamllint==1.26.3
 zipp==3.7.0
 zopfli==0.2.3
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
