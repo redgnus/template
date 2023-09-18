@@ -4,7 +4,7 @@ permalink: /todo
 ---
 
 <!--
-  SPDX-FileCopyrightText: 2022 Pablo Hörtner
+  SPDX-FileCopyrightText: 2023 Pablo Hörtner
   SPDX-License-Identifier:  CC-BY-SA-4.0
   https://spdx.org/licenses/CC-BY-SA-4.0
 -->
@@ -36,7 +36,7 @@ in every project hosted by redgnus & related organisations like pandainfo.
 The root directory of the project should include a `LICENSE` file. Depending
 on the repository's main purpose this can be GNU AGPL v3.0, CC BY SA, or MIT.
 
-For reference, license files should be included in `docs` in markdown format.
+For reference, license files should be included in `docs` in Markdown format.
 
 - [x] docs: add AGPL-3.0 license file for code and binaries
 - [x] docs: add CC-BY-SA-4.0 license file for documentation
@@ -58,9 +58,9 @@ they are essential configuration files for important tools of the project.
 - [ ] chore: specify ansible linter rules to be excluded
 - [ ] chore: specify cspell
 - [ ] chore: specify dockerignore exclude patterns
-- [ ] chore: specify editorconfig style guidelines
+- [ ] chore: specify EditorConfig style guidelines
 - [ ] chore: specify environment variables
-- [ ] chore: specify eslint config and style checking rules
+- [ ] chore: specify ESLint config and style checking rules
 - [ ] chore: specify git attributes
 - [x] chore: specify gitignore exclude patterns
 - [ ] chore: specify npmignore exclude patterns
@@ -75,7 +75,7 @@ Think of these files as GNU Makefiles or build recipes for this project.
 - [x] build: add mkdocs configuration
 - [x] build: add npm configuration
 - [x] build: add pip requirements file
-- [x] build: set website root directory to `_site`
+- [x] build: set GitHub Pages root directory to `_site`
 
 ## Continuous integration
 
@@ -102,7 +102,7 @@ This might be replaced by [GitLab CI] or [Drone CI] ([Woodpecker]) soon.
 - [ ] docs: add landing page
 - [ ] docs: add quick start instructions
 - [ ] docs: add table of contents
-- [ ] docs: archive docs as pdf files
+- [ ] docs: archive docs as PDF files
 - [ ] docs: describe documentation management
 - [ ] docs: describe environment settings
 - [ ] docs: describe requirements

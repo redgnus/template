@@ -4,7 +4,7 @@ permalink: /
 ---
 
 <!--
-  SPDX-FileCopyrightText: 2022 Pablo Hörtner
+  SPDX-FileCopyrightText: 2023 Pablo Hörtner
   SPDX-License-Identifier:  CC-BY-SA-4.0
   https://spdx.org/licenses/CC-BY-SA-4.0
 -->

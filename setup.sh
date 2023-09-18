@@ -101,7 +101,7 @@ cmds=("${cmd1}"
 n=${#cmds[@]}
 i=0
 while [ "$i" -lt "$n" ]; do
-  pct=$(( i * 100 / n ))
+  pct=$((i * 100 / n))
   echo XXX
   echo "${i}"
   echo "${msgs[i]}"
@@ -112,5 +112,5 @@ while [ "$i" -lt "$n" ]; do
 done | ${DIALOG}  --title "${TITLE^^}" \
                   --gauge "Installing Python packages, please wait..." 6 78 0
 
-${DIALOG} --title "${TITLE^^}" --textbox /dev/stdin 16 60 <<<"$(cat .env)"
+${DIALOG} --title "${TITLE^^}" --textbox /dev/stdin 16 60 <<< "$(cat .env)"
 exit

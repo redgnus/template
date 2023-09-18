@@ -1,9 +1,9 @@
 <!--
-  SPDX-FileCopyrightText:   2022 Pablo Hörtner, Coraline Ada Ehmke et al.
+  SPDX-FileCopyrightText:   2023 Pablo Hörtner, Coraline Ada Ehmke et al.
   SPDX-License-Identifier:  CC-BY-SA-4.0
   https://spdx.org/licenses/CC-BY-SA-4.0
 
-  Copyright © 2022 by Pablo Hörtner <redtux@pm.me> & Contributors
+  Copyright © 2023 by Pablo Hörtner <redtux@pm.me> & Contributors
   Copyright © 2021 by Coraline Ada Ehmke & Organization for Ethical Source
   You can find the original here: https://www.contributor-covenant.org/
   Attribution required if you use this markdown file for your projects.
