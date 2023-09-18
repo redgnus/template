@@ -4,49 +4,52 @@ permalink: /contributing
 ---
 
 <!--
-  SPDX-FileCopyrightText: 2023 Pablo Hörtner
+  SPDX-FileCopyrightText: 2023 Pablo Hörtner <redtux@pm.me>
   SPDX-License-Identifier:  CC-BY-SA-4.0
   https://spdx.org/licenses/CC-BY-SA-4.0
 -->
 
-1. [We need you](#we-need-you)
+1. [Join our team](#join-our-team)
 2. [Environment setup](#environment-setup)
 3. [Conventional commits](#conventional-commits)
 4. [Pull requests guidelines](#pull-requests-guidelines)
 5. [Versioning](#versioning)
 
-## We need you
+## Join our team
 
-👋  Welcome to redgnus! We love contributions from the community,
-feedback and new ideas. Bug reports and pull requests are welcome.
+👋  Welcome to REDGNUS!
 
-It is a pleasure for us to have you here. Your help is needed and
-highly appreciated. Here are some hints where to start, and how...
+All contributions from the community, feedback, innovative ideas,
+bug reports, pull requests, and doc translations are most welcome.
 
-This project is intended to be a safe and welcoming space for teams
-and individuals aiming at improving it through their collaboration.
-Contributors are expected to adhere to these [Community Guidelines].
+It is a pleasure for our team to have you here. Any help is highly
+appreciated. Here are some brief hints on where to start, and how.
 
-If you encounter abusive behavior, please refer to the [Enforcement]
-section (aka Policy Violation) of the Community Guidelines (aka Code
-of Conduct) for information on how to raise a complaint (PM [redtux]).
+This project aims to be a comfortable and welcoming space for teams
+and for individuals who constantly improve it through collaboration.
+Every contributor will need to adhere to our [Community Guidelines].
+
+Did you face abusive behavior in this project? Sorry!!! Refer to the
+[Enforcement] section (Policy Violation) of the Community Guidelines
+(Code of Conduct) for information on how to raise a complaint (PM [redtux]).
 
 ## Environment setup
 
-We kindly ask all contributors to stick to the project layout and
-directory structure both for new and for existing projects inside
-the `redgnus` namespace. Use these linters before each new commit.
+The project maintainers kindly ask all contributors to stick to the
+project layout, and to the directory structure – for future and for
+existing projects inside the `redgnus` namespace. Here is a list of
+linters that our team uses before every commit. Hope you'll enjoy it!
 
 - [ ] [actionlint] (linter for GitHub Actions)
 - [x] [dotenv-linter] (linter for `.env` files)
 - [x] [editorconfig-checker] (linter using `.editorconfig`)
-- [ ] [markdownlint] (linter for markdown files)
+- [ ] [markdownlint] (linter for Markdown files)
 - [ ] [MegaLinter] (linter collection for CI/CD pipelines)
 - [x] [shellcheck] (linter for shell scripts)
-- [x] [yamllint] (linter for yaml files)
+- [x] [yamllint] (linter for YAML files)
 - [ ] [hadolint] (linter for `Dockerfile`)
 
-A working development environment is being initiated by the following commands:
+To start a development environment, run the following commands:
 
 ```bash
 python3 -m venv .venv
@@ -54,7 +57,7 @@ source .venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
-The used linting tools can also be installed manually by the following commands:
+To manually install all linting tools, run the following commands:
 
 ```bash
 pip3 install --user --upgrade pip
@@ -72,8 +75,8 @@ npm install -g markdownlint-cli
 
 ## Conventional commits
 
-All redgnus projects follow the [Conventional Commits] specification. Therefore,
-all commit messages must follow the [Angular style standard] as described below.
+All REDGNUS projects follow the [Conventional Commits] specification. Therefore,
+all commit messages must follow the [Angular style standard], as described here.
 
 ```bash
 <type>[(scope)]: Subject
@@ -82,19 +85,19 @@ all commit messages must follow the [Angular style standard] as described below.
 
 Scope and body are optional. Type can be:
 
-- `build`: About packaging, building wheels, etc.
-- `chore`: About packaging or repo/files management.
-- `ci`: About Continuous Integration.
-- `docs`: About documentation.
-- `feat`: New feature.
-- `fix`: Bug fix.
-- `perf`: About performance.
-- `refactor`: Changes which are not features nor bug fixes.
-- `style`: A change in code style/format.
-- `tests`: About tests.
+- `build`: About packaging and building wheels
+- `chore`: About packaging or files management
+- `ci`: About Continuous Integration pipelines
+- `docs`: About documentation & DEV guidelines
+- `feat`: Introducing a feature or enhancement
+- `fix`: a. Fixing a bug – b. Closing an issue
+- `perf`: About a. performance – b. monitoring
+- `refactor`: Change that is no feature or fix
+- `style`: Changes in code style / code format
+- `tests`: About QA policy or test integration
 
 **Subject (and body) must be valid Markdown.**
-If you write a body, please add issues references at the end:
+If you write a body, add references to issues or tracking numbers at the end:
 
 ```bash
 Body.
@@ -106,20 +109,20 @@ Close #15
 
 Link to any related issue in the Pull Request message.
 
-During review, we recommend using fixups:
+During review, our team recommends using `fixup`:
 
 ```bash
 # SHA is the SHA of the commit you want to fix
 git commit --fixup=SHA
 ```
 
-Once all the changes are approved, you can squash your commits:
+On approval of all changes after a review, you can squash your commits:
 
 ```bash
 git rebase -i --autosquash main
 ```
 
-Then you should push your changes to the remote origin repository:
+Finally, push your changes to the remote origin repository:
 
 ```bash
 git push
