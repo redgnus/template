@@ -1,8 +1,10 @@
 # SPDX-FileCopyrightText: 2023 Pablo Hörtner <redtux@pm.me>
 # SPDX-License-Identifier: AGPL-3.0-or-later
 #
-# Python dependencies · required for redgnus
+# Python dependencies · required for REDGNUS
 # Usage:  `pip3 install -r requirements.txt`
+#
+# editorconfig-checker-disable
 
 attrs==21.4.0
 beautifulsoup4==4.12.2

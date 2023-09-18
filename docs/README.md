@@ -11,10 +11,12 @@ permalink: /
 
 ![logo](https://raw.githubusercontent.com/redgnus/logo/main/logo.svg)
 
+<!-- editorconfig-checker-disable -->
 [![REUSE Compliance](https://img.shields.io/reuse/compliance/github.com/redgnus/template?color=blue&label=REUSE)](https://api.reuse.software/info/github.com/redgnus/template)
 [![license](https://img.shields.io/github/license/redgnus/template?color=blue)](https://raw.githubusercontent.com/redgnus/template/main/LICENSE)
 ![issues](https://img.shields.io/github/issues-raw/redgnus/template?color=blue)
 [![docs](https://github.com/redgnus/template/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages)](https://redgnus.github.io/template/)
+<!-- editorconfig-checker-enable -->
 
 1. [About](#about)
 2. [Templates](#templates)
