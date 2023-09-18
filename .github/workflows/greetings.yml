@@ -1,8 +1,13 @@
-# SPDX-FileCopyrightText: 2022 Pablo Hörtner
+---
+# vim: set ai expandtab sw=2 ts=2 sts=2 re=2 ft=yaml:
+# code: language=yaml
+#
+# SPDX-FileCopyrightText: 2023 Pablo Hörtner
 # SPDX-License-Identifier: AGPL-3.0-or-later
 #
-# Copyright © 2022 by Pablo Hörtner <redtux@pm.me>. All rights reserved.
+# Copyright © 2023 by Pablo Hörtner <redtux@pm.me>. All rights reserved.
 # You can find the AGPL v3.0 here: https://www.gnu.org/licenses/agpl-3.0
+
 name: Welcome new contributors to redgnus
 
 on: [pull_request, issues]
