@@ -16,7 +16,7 @@ cssselect2==0.7.0
 dotenv-linter==0.3.0
 editorconfig-checker==2.4.0
 fonttools==4.42.1
-ghp-import==2.0.2
+ghp-import==2.1.0
 hadolint-py @ git+https://github.com/AleksaC/hadolint-py.git@e20a7857c5e205af449d7f70c29a68337fcdc9ed
 hadolintw==1.2.1
 html5lib==1.1
