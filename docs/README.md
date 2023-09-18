@@ -28,38 +28,38 @@ permalink: /
 
 > **redgnus ✨ 100% FREE SOFTWARE**
 
-- [x] 👋 Hi and welcome to the redgnus project! Visit us at [redgnus.github.io].
-- [x] 👀 We are interested in building ✨Free Software✨ for a ✨Free Society✨.
-- [x] 🌱 We are currently learning how to build a private cloud on Raspberry Pi.
-- [x] 💞️ We are looking to collaborate with you on building our redgnus stack...
-- [x] 📫 Feel free to contact us at <<vwb4yxi6w@mozmail.com>>, or via [twitter].
+- [x] 👋 Hi and welcome to the REDGNUS project! Visit us at [redgnus.github.io].
+- [x] 👀 Our team aims at helping to build ✨FREE SOFTWARE FOR A FREE SOCIETY✨.
+- [x] 🌱 Our team is currently testing to build a private cloud on Raspberry Pi.
+- [x] 💞️ Our team is looking to work together with you on improving our service.
+- [x] 📫 Get in touch with us at <<vwb4yxi6w@mozmail.com>>, or on [twitter] / X.
 
 ## Templates
 
-NOTE: We are using TODO-Driven Development - which
+NOTE: This project uses TODO-Driven Development - which
 might be comparable to [Readme Driven Development][RDD].
 
 [RDD]: https://tom.preston-werner.com/2010/08/23/readme-driven-development.html
 
-New code repositories should start with a readme defining at least the following:
+Start a code repository by writing a README, defining at least the following:
 
-- [ ] Mission: Principal aims and visions of the project
-- [ ] Features: Some ideas or a wishlist for the project
-- [ ] Tools: Build tools and dev environment - if needed
+- [ ] Mission: Principal aims and `visions` of the project
+- [ ] Features: Some ideas or a `wishlist` for the project
+- [ ] Tools: Build tools and `dev environment` - if needed
 
-Using a `TODO.md` file for major tasks to keep track of progress is recommended.
+For major milestones, start with a `TODO.md` file, and keep track of progress.
 
 ## Contributing
 
-Thank you for your interest in redgnus! We love all contributions.
+Thank you for your interest in REDGNUS! Contributions are love. 💞️
 
-This project is intended to be a safe and welcoming space for teams
-and individuals aiming at improving it through their collaboration.
-Contributors are expected to adhere to these [Community Guidelines].
+This project aims to be a comfortable and welcoming space for teams
+and for individuals who constantly improve it through collaboration.
+Every contributor will need to adhere to our [Community Guidelines].
 
-If you encounter abusive behavior, please refer to the [Enforcement]
-section (aka Policy Violation) of the Community Guidelines (aka Code
-of Conduct) for information on how to raise a complaint (PM [redtux]).
+Did you face abusive behavior in this project? Sorry!!! Refer to the
+[Enforcement] section (Policy Violation) of the Community Guidelines
+(Code of Conduct) for information on how to raise a complaint (PM [redtux]).
 
 To get started contributing just refer to the [Contributing Guidelines].
 
