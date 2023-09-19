@@ -19,6 +19,7 @@
     "mikestead.dotenv",
     "redhat.vscode-yaml",
     "timonwong.shellcheck",
-    "vivaxy.vscode-conventional-commits"
+    "vivaxy.vscode-conventional-commits",
+    "yzhang.markdown-all-in-one"
   ]
 }
