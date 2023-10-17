@@ -58,7 +58,7 @@ six==1.16.0
 soupsieve==2.5
 tinycss2==1.2.1
 typing_extensions==4.8.0
-urllib3==2.0.5
+urllib3==2.0.7
 watchdog==3.0.0
 weasyprint==59.0
 webencodings==0.5.1
