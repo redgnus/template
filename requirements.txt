@@ -42,7 +42,7 @@ pathspec==0.11.2
 Pillow==10.0.1
 platformdirs==3.10.0
 ply==3.11
-pycparser==2.21
+pycparser==2.22
 pydyf==0.7.0
 Pygments==2.16.1
 pymdown-extensions==10.3
