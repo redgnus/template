@@ -55,7 +55,7 @@ regex==2023.8.8
 requests==2.31.0
 shellcheck-py==0.9.0.5
 six==1.16.0
-soupsieve==2.5
+soupsieve==2.7
 tinycss2==1.2.1
 typing_extensions==4.8.0
 urllib3==2.0.5
