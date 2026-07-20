@@ -24,7 +24,7 @@ ghp-import==2.1.0
 hadolint-py @ git+https://github.com/AleksaC/hadolint-py.git@e20a7857c5e205af449d7f70c29a68337fcdc9ed
 hadolintw==1.2.1
 html5lib==1.1
-idna==3.4
+idna==3.18
 importlib-metadata==6.8.0
 Jinja2==3.1.2
 libsass==0.22.0
